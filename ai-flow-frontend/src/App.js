@@ -56,7 +56,7 @@ function App() {
     try {
       setLoading(true);
 
-      const res = await axios.post("http://localhost:5000/api/ask-ai", {
+      const res = await axios.post("https://ai-flow-backend-5x8b.onrender.com/api/ask-ai", {
         prompt: input
       });
 

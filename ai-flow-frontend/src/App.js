@@ -70,7 +70,7 @@ function App() {
 
   const saveData = async () => {
     try {
-      await axios.post("http://localhost:5000/api/save", {
+      await axios.post("https://ai-flow-backend-5x8b.onrender.com/api/save", {
         prompt: input,
         response: output
       });
